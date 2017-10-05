@@ -11,13 +11,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20171005100239) do
+ActiveRecord::Schema.define(version: 20171005104109) do
 
   create_table "shots", force: :cascade do |t|
-    t.float    "start_point"
-    t.float    "end_point"
-    t.datetime "created_at",  null: false
-    t.datetime "updated_at",  null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
 end
