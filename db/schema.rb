@@ -11,11 +11,15 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20171005104109) do
+ActiveRecord::Schema.define(version: 20171005105141) do
 
   create_table "shots", force: :cascade do |t|
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.float    "start_lan"
+    t.float    "start_lon"
+    t.float    "end_lat"
+    t.float    "end_lon"
   end
 
 end
