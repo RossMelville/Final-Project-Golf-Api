@@ -15,7 +15,12 @@ class ShotsController < ApplicationController
   end
 
   def create
-    shot = Shot.create(shot_params)
+    shot = Shot.create(
+      start_lat: params[:previousLat],
+      start_lon: params[:previousLon],
+      end_lat: params[:currentLat],
+      end_lon: params[:currentLon]
+    )
     render :json => shot
   end
 
