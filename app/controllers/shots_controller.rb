@@ -5,7 +5,7 @@ class ShotsController < ApplicationController
   end
 
   def index  
-    @shots = [ {start_lat: 56.345838, start_lon: -2.808940, end_lat: 56.348190, end_lon: -2.810899} ]
+    @shots = Shot.all
     render :json => @shots
   end
 
