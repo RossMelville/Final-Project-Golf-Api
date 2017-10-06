@@ -1,6 +1,6 @@
 class ShotsController < ApplicationController
 
-  def show_params
+  def shot_params
     params.require(:shot).permit([:start_lat, :start_lon, :end_lat, :end_lon])
   end
 
