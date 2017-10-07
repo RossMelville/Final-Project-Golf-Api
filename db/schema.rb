@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20171007081148) do
+ActiveRecord::Schema.define(version: 20171007083656) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -20,7 +20,10 @@ ActiveRecord::Schema.define(version: 20171007081148) do
     t.string   "name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer  "hole_id"
   end
+
+  add_index "courses", ["hole_id"], name: "index_courses_on_hole_id", using: :btree
 
   create_table "holes", force: :cascade do |t|
     t.integer  "number"
@@ -30,13 +33,19 @@ ActiveRecord::Schema.define(version: 20171007081148) do
     t.float    "green_back"
     t.datetime "created_at",   null: false
     t.datetime "updated_at",   null: false
+    t.integer  "shot_id"
   end
+
+  add_index "holes", ["shot_id"], name: "index_holes_on_shot_id", using: :btree
 
   create_table "rounds", force: :cascade do |t|
     t.string   "course"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer  "course_id"
   end
+
+  add_index "rounds", ["course_id"], name: "index_rounds_on_course_id", using: :btree
 
   create_table "shots", force: :cascade do |t|
     t.datetime "created_at", null: false
@@ -47,4 +56,7 @@ ActiveRecord::Schema.define(version: 20171007081148) do
     t.float    "start_lat"
   end
 
+  add_foreign_key "courses", "holes"
+  add_foreign_key "holes", "shots"
+  add_foreign_key "rounds", "courses"
 end
