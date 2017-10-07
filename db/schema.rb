@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20171007083656) do
+ActiveRecord::Schema.define(version: 20171007100737) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -28,12 +28,16 @@ ActiveRecord::Schema.define(version: 20171007083656) do
   create_table "holes", force: :cascade do |t|
     t.integer  "number"
     t.integer  "par"
-    t.float    "green_front"
-    t.float    "green_middle"
-    t.float    "green_back"
-    t.datetime "created_at",   null: false
-    t.datetime "updated_at",   null: false
+    t.datetime "created_at",       null: false
+    t.datetime "updated_at",       null: false
     t.integer  "shot_id"
+    t.float    "green_front_lat"
+    t.float    "green_front_lon"
+    t.float    "green_middle_lat"
+    t.float    "green_middle_lon"
+    t.float    "green_back_lat"
+    t.float    "green_back_lon"
+    t.integer  "course_id"
   end
 
   add_index "holes", ["shot_id"], name: "index_holes_on_shot_id", using: :btree
@@ -43,9 +47,12 @@ ActiveRecord::Schema.define(version: 20171007083656) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.integer  "course_id"
+    t.integer  "shot_id"
+    t.datetime "date"
   end
 
   add_index "rounds", ["course_id"], name: "index_rounds_on_course_id", using: :btree
+  add_index "rounds", ["shot_id"], name: "index_rounds_on_shot_id", using: :btree
 
   create_table "shots", force: :cascade do |t|
     t.datetime "created_at", null: false
@@ -54,9 +61,13 @@ ActiveRecord::Schema.define(version: 20171007083656) do
     t.float    "end_lat"
     t.float    "end_lon"
     t.float    "start_lat"
+    t.integer  "round_id"
+    t.integer  "hole_id"
+    t.string   "club"
   end
 
   add_foreign_key "courses", "holes"
   add_foreign_key "holes", "shots"
   add_foreign_key "rounds", "courses"
+  add_foreign_key "rounds", "shots"
 end
