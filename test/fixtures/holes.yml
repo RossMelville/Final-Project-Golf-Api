@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  number: 1
+  par: 1
+  green_front: 1.5
+  green_middle: 1.5
+  green_back: 1.5
+
+two:
+  number: 1
+  par: 1
+  green_front: 1.5
+  green_middle: 1.5
+  green_back: 1.5
