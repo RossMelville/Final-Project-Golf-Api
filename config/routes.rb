@@ -1,10 +1,12 @@
 Rails.application.routes.draw do
 
-  scope path: "api" do
+  resources :rounds do
     resources :shots
   end
 
-  
+  get 'gets' => 'shots#all'
+
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
