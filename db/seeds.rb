@@ -15,7 +15,7 @@ h4 = Hole.create({course_id: c1.id, number: 4, par: 4, green_front_lat: 55.97350
 
 h5 = Hole.create({course_id: c1.id, number: 5, par: 4, green_front_lat: 55.971460, green_front_lon: -3.408722, green_middle_lat: 55.971350, green_middle_lon: -3.408732, green_back_lat: 55.971231, green_back_lon: -3.408724})
 
-h6 = Hole.create({course_id: c1.id, number: 2, par: 5, green_front_lat: 55.971992, green_front_lon: -3.407568, green_middle_lat: 55.971860, green_middle_lon: -3.407561, green_back_lat: 55.971732, green_back_lon: -3.407567})
+h6 = Hole.create({course_id: c1.id, number: 6, par: 4, green_front_lat: 55.973263, green_front_lon: -3.405085, green_middle_lat: 55.973352, green_middle_lon: -3.405000, green_back_lat: 55.973416, green_back_lon: -3.404912})
 
 h7 = Hole.create({course_id: c1.id, number: 2, par: 5, green_front_lat: 55.971992, green_front_lon: -3.407568, green_middle_lat: 55.971860, green_middle_lon: -3.407561, green_back_lat: 55.971732, green_back_lon: -3.407567})
 
