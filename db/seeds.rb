@@ -61,6 +61,8 @@ s3 = Shot.create({round_id: r1.id, hole_id: h1.id, club: "Putter"})
 
 s4 = Shot.create({round_id: r1.id, hole: h1.id, club: "Putter"})
 
+
+
 s5 = Shot.create({round_id: r1.id, hole: h2.id, start_lat: 55.975789, start_lon: -3.408539, end_lat: 55.974132, end_lon: -3.407582, club: "Driver"})
 
 s6 = Shot.create({round_id: r1.id, hole: h2.id, start_lat: 55.974132, start_lon: -3.407582, end_lat: 55.973146, end_lon: -3.407618, club: "3 Wood"})
@@ -73,27 +75,40 @@ s9 = Shot.create({round_id: r1.id, hole: h2.id, club: "Putter"})
 
 s10 = Shot.create({round_id: r1.id, hole: h2.id, club: "Putter"})
 
+
+
 s11 = Shot.create({round_id: r1.id, hole: h3.id, start_lat: 55.971816, start_lon: -3.408098, end_lat: 55.973664, end_lon: -3.408289, club: "Driver"})
 
-s12 = Shot.create({round_id: r1.id, hole: h1.id, start_lat: 55.973664, start_lon: -3.408289, end_lat: 55.974941, end_lon: -3.409015, club: "6 Iron"})
+s12 = Shot.create({round_id: r1.id, hole: h3.id, start_lat: 55.973664, start_lon: -3.408289, end_lat: 55.974941, end_lon: -3.409015, club: "6 Iron"})
 
-s13 = Shot.create({round_id: r1.id, hole: h1.id, start_lat: 55.974941, start_lon: -3.409015, end_lat: 55.975447, end_lon: -3.408760, club: "Wedge 60"})
+s13 = Shot.create({round_id: r1.id, hole: h3.id, start_lat: 55.974941, start_lon: -3.409015, end_lat: 55.975447, end_lon: -3.408760, club: "Wedge 60"})
 
-s14 = Shot.create({round_id: r1.id, hole: h1.id, club: "Putter"})
+s14 = Shot.create({round_id: r1.id, hole: h3.id, club: "Putter"})
 
-s15 = Shot.create({round_id: r1.id, hole: h1.id, club: "Putter"})
+s15 = Shot.create({round_id: r1.id, hole: h3.id, club: "Putter"})
 
-s3 = Shot.create({round_id: r1.id, hole: h1.id, start_lat: , start_lon: , end_lat: , end_lon: , club: ""})
-s3 = Shot.create({round_id: r1.id, hole: h1.id, start_lat: , start_lon: , end_lat: , end_lon: , club: ""})
-s3 = Shot.create({round_id: r1.id, hole: h1.id, start_lat: , start_lon: , end_lat: , end_lon: , club: ""})
-s3 = Shot.create({round_id: r1.id, hole: h1.id, start_lat: , start_lon: , end_lat: , end_lon: , club: ""})
-s3 = Shot.create({round_id: r1.id, hole: h1.id, start_lat: , start_lon: , end_lat: , end_lon: , club: ""})
-s3 = Shot.create({round_id: r1.id, hole: h1.id, start_lat: , start_lon: , end_lat: , end_lon: , club: ""})
-s3 = Shot.create({round_id: r1.id, hole: h1.id, start_lat: , start_lon: , end_lat: , end_lon: , club: ""})
-s3 = Shot.create({round_id: r1.id, hole: h1.id, start_lat: , start_lon: , end_lat: , end_lon: , club: ""})
-s3 = Shot.create({round_id: r1.id, hole: h1.id, start_lat: , start_lon: , end_lat: , end_lon: , club: ""})
-s3 = Shot.create({round_id: r1.id, hole: h1.id, start_lat: , start_lon: , end_lat: , end_lon: , club: ""})
-s3 = Shot.create({round_id: r1.id, hole: h1.id, start_lat: , start_lon: , end_lat: , end_lon: , club: ""})
+
+
+s16 = Shot.create({round_id: r1.id, hole: h4.id, start_lat: 55.975850, start_lon: -3.409912, end_lat: 55.974034, end_lon: -3.409258, club: "Driver"})
+
+s17 = Shot.create({round_id: r1.id, hole: h4.id, start_lat: 55.974034, start_lon: -3.409258, end_lat: 55.973460, end_lon: -3.408903, club: "PW"})
+
+s18 = Shot.create({round_id: r1.id, hole: h4.id, club: "Putter"})
+
+s19 = Shot.create({round_id: r1.id, hole: h4.id, club: "Putter"})
+
+s20 = Shot.create({round_id: r1.id, hole: h4.id, club: "Putter"})
+
+
+
+s21 = Shot.create({round_id: r1.id, hole: h1.id, start_lat: , start_lon: , end_lat: , end_lon: , club: ""})
+s22 = Shot.create({round_id: r1.id, hole: h1.id, start_lat: , start_lon: , end_lat: , end_lon: , club: ""})
+s23 = Shot.create({round_id: r1.id, hole: h1.id, start_lat: , start_lon: , end_lat: , end_lon: , club: ""})
+s24 = Shot.create({round_id: r1.id, hole: h1.id, start_lat: , start_lon: , end_lat: , end_lon: , club: ""})
+s25 = Shot.create({round_id: r1.id, hole: h1.id, start_lat: , start_lon: , end_lat: , end_lon: , club: ""})
+s26 = Shot.create({round_id: r1.id, hole: h1.id, start_lat: , start_lon: , end_lat: , end_lon: , club: ""})
+
+
 s3 = Shot.create({round_id: r1.id, hole: h1.id, start_lat: , start_lon: , end_lat: , end_lon: , club: ""})
 s3 = Shot.create({round_id: r1.id, hole: h1.id, start_lat: , start_lon: , end_lat: , end_lon: , club: ""})
 s3 = Shot.create({round_id: r1.id, hole: h1.id, start_lat: , start_lon: , end_lat: , end_lon: , club: ""})
