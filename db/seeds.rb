@@ -21,11 +21,11 @@ h7 = Hole.create({course_id: c1.id, number: 7, par: 3, green_front_lat: 55.97319
 
 h8 = Hole.create({course_id: c1.id, number: 8, par: 4, green_front_lat: 55.975461, green_front_lon: -3.406497, green_middle_lat: 55.975546, green_middle_lon: -3.406540, green_back_lat: 55.975646, green_back_lon: -3.406529})
 
-h9 = Hole.create({course_id: c1.id, number: 2, par: 5, green_front_lat: 55.971992, green_front_lon: -3.407568, green_middle_lat: 55.971860, green_middle_lon: -3.407561, green_back_lat: 55.971732, green_back_lon: -3.407567})
+h9 = Hole.create({course_id: c1.id, number: 9, par: 3, green_front_lat: 55.975307, green_front_lon: -3.404835, green_middle_lat: 55.975288, green_middle_lon: -3.404637, green_back_lat: 55.975278, green_back_lon: -3.404500})
 
 r1 = Round.create({course_id: c1.id, date: "2017-10-07"})
 
-s1 = Shot.create({round: r1, hole: h1, start_lat: 55.975874, start_lon: -3.404413, end_lat: 55.975962, end_lon: -3.407316, club: "Driver"})
+s1 = Shot.create({round_id: r1.id, hole: h1.id, start_lat: 55.975874, start_lon: -3.404413, end_lat: 55.975962, end_lon: -3.407316, club: "Driver"})
 
 s2 = Shot.create({round_id: r1.id, hole_id: h1.id, start_lat: 55.975962, start_lon: -3.407316, end_lat: 55.975851, end_lon: -3408106 , club: "Wedge 56"})
 
