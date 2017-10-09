@@ -1,6 +1,6 @@
 class Hole < ActiveRecord::Base
 
-  belongs_to ( :round )
-  has_many( :shots )
+  has_many :shots
+  has_many :rounds, through: :shots
     
 end

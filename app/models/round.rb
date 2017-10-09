@@ -1,7 +1,7 @@
 class Round < ActiveRecord::Base
 
-  has_many ( :holes )
-  has_many ( :shots, {through: :holes})
+  has_many :shots
+  has_many :holes, through: :shots
 
 end
 

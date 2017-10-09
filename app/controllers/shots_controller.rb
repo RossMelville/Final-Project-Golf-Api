@@ -9,7 +9,7 @@ class ShotsController < ApplicationController
     render :json => @shots
   end
 
-  def shot
+  def show
     shot = Shot.find(params[:id])
     render :json => shot
   end
