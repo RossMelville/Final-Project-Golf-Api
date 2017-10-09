@@ -1,8 +1,8 @@
 class HolesController < ApplicationController
 
   def index  
-    holes = Hole.where( { round: params[:round_id] } )
-    render :json => holes.as_json( { include: :shots } )
+    holes = Hole.all
+    render :json => holes
   end
 
   def show

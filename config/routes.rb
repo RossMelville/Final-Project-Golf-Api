@@ -1,13 +1,13 @@
 Rails.application.routes.draw do
 
-  resources :rounds do
+  resources :shots do
     # resources :holes.as_json({include: :shots})
-    resources :shots do
-      resources :holes
+    resources :holes do
+      resources :rounds
     end
   end
 
-  get 'gets' => 'holes#all'
+  get 'gets' => 'shots#all'
 
 
   # The priority is based upon order of creation: first created -> highest priority.
