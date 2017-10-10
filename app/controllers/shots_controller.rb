@@ -6,9 +6,7 @@ class ShotsController < ApplicationController
 
   def index  
     @shots = Shot.all
-    render :json => @shots.as_json({
-      include: {hole: params[:hole_id]}
-      })
+    render :json => @shots
   end
 
   def show

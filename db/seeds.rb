@@ -59,99 +59,99 @@ s2 = Shot.create({round_id: r1.id, hole_id: h1.id, start_lat: 55.975962, start_l
 
 s3 = Shot.create({round_id: r1.id, hole_id: h1.id, club: "Putter"})
 
-s4 = Shot.create({round_id: r1.id, hole: h1.id, club: "Putter"})
+s4 = Shot.create({round_id: r1.id, hole_id: h1.id, club: "Putter"})
 
 
 
-s5 = Shot.create({round_id: r1.id, hole: h2.id, start_lat: 55.975789, start_lon: -3.408539, end_lat: 55.974132, end_lon: -3.407582, club: "Driver"})
+s5 = Shot.create({round_id: r1.id, hole_id: h2.id, start_lat: 55.975789, start_lon: -3.408539, end_lat: 55.974132, end_lon: -3.407582, club: "Driver"})
 
-s6 = Shot.create({round_id: r1.id, hole: h2.id, start_lat: 55.974132, start_lon: -3.407582, end_lat: 55.973146, end_lon: -3.407618, club: "3 Wood"})
+s6 = Shot.create({round_id: r1.id, hole_id: h2.id, start_lat: 55.974132, start_lon: -3.407582, end_lat: 55.973146, end_lon: -3.407618, club: "3 Wood"})
 
-s7 = Shot.create({round_id: r1.id, hole: h2.id, start_lat: 55.973146, start_lon: -3.407618, end_lat: 55.972028, end_lon: -3.407559, club: "8 Iron"})
+s7 = Shot.create({round_id: r1.id, hole_id: h2.id, start_lat: 55.973146, start_lon: -3.407618, end_lat: 55.972028, end_lon: -3.407559, club: "8 Iron"})
 
-s8 = Shot.create({round_id: r1.id, hole: h2.id, start_lat: 55.972028, start_lon: -3.407559, end_lat: 55.971776, end_lon: -3.407594, club: "Wedge 60"})
+s8 = Shot.create({round_id: r1.id, hole_id: h2.id, start_lat: 55.972028, start_lon: -3.407559, end_lat: 55.971776, end_lon: -3.407594, club: "Wedge 60"})
 
-s9 = Shot.create({round_id: r1.id, hole: h2.id, club: "Putter"})
+s9 = Shot.create({round_id: r1.id, hole_id: h2.id, club: "Putter"})
 
-s10 = Shot.create({round_id: r1.id, hole: h2.id, club: "Putter"})
-
-
-
-s11 = Shot.create({round_id: r1.id, hole: h3.id, start_lat: 55.971816, start_lon: -3.408098, end_lat: 55.973664, end_lon: -3.408289, club: "Driver"})
-
-s12 = Shot.create({round_id: r1.id, hole: h3.id, start_lat: 55.973664, start_lon: -3.408289, end_lat: 55.974941, end_lon: -3.409015, club: "6 Iron"})
-
-s13 = Shot.create({round_id: r1.id, hole: h3.id, start_lat: 55.974941, start_lon: -3.409015, end_lat: 55.975447, end_lon: -3.408760, club: "Wedge 60"})
-
-s14 = Shot.create({round_id: r1.id, hole: h3.id, club: "Putter"})
-
-s15 = Shot.create({round_id: r1.id, hole: h3.id, club: "Putter"})
+s10 = Shot.create({round_id: r1.id, hole_id: h2.id, club: "Putter"})
 
 
 
-s16 = Shot.create({round_id: r1.id, hole: h4.id, start_lat: 55.975850, start_lon: -3.409912, end_lat: 55.974034, end_lon: -3.409258, club: "Driver"})
+s11 = Shot.create({round_id: r1.id, hole_id: h3.id, start_lat: 55.971816, start_lon: -3.408098, end_lat: 55.973664, end_lon: -3.408289, club: "Driver"})
 
-s17 = Shot.create({round_id: r1.id, hole: h4.id, start_lat: 55.974034, start_lon: -3.409258, end_lat: 55.973460, end_lon: -3.408903, club: "PW"})
+s12 = Shot.create({round_id: r1.id, hole_id: h3.id, start_lat: 55.973664, start_lon: -3.408289, end_lat: 55.974941, end_lon: -3.409015, club: "6 Iron"})
 
-s18 = Shot.create({round_id: r1.id, hole: h4.id, club: "Putter"})
+s13 = Shot.create({round_id: r1.id, hole_id: h3.id, start_lat: 55.974941, start_lon: -3.409015, end_lat: 55.975447, end_lon: -3.408760, club: "Wedge 60"})
 
-s19 = Shot.create({round_id: r1.id, hole: h4.id, club: "Putter"})
+s14 = Shot.create({round_id: r1.id, hole_id: h3.id, club: "Putter"})
 
-s20 = Shot.create({round_id: r1.id, hole: h4.id, club: "Putter"})
-
-
-
-s21 = Shot.create({round_id: r1.id, hole: h5.id, start_lat: 55.974268, start_lon: -3.410408, end_lat: 55.972686, end_lon: -3.410066, club: "Driver"})
-
-s22 = Shot.create({round_id: r1.id, hole: h5.id, start_lat: 55.972686, start_lon: -3.410066, end_lat: 55.971890, end_lon: -3.409079, club: "9 Iron"})
-
-s23 = Shot.create({round_id: r1.id, hole: h5.id, start_lat: 55.971890, start_lon: -3.409079, end_lat: 55.971348, end_lon: -3.408740, club: "Wedge 52"})
-
-s24 = Shot.create({round_id: r1.id, hole: h5.id, club: "Putter"})
-
-s25 = Shot.create({round_id: r1.id, hole: h5.id, club: "Putter"})
-
-s26 = Shot.create({round_id: r1.id, hole: h5.id, club: "Putter"})
+s15 = Shot.create({round_id: r1.id, hole_id: h3.id, club: "Putter"})
 
 
 
-s27 = Shot.create({round_id: r1.id, hole: h6.id, start_lat: 55.970474, start_lon: -3.409064, end_lat: 55.971940, end_lon: -3.406340, club: "Driver"})
+s16 = Shot.create({round_id: r1.id, hole_id: h4.id, start_lat: 55.975850, start_lon: -3.409912, end_lat: 55.974034, end_lon: -3.409258, club: "Driver"})
 
-s28 = Shot.create({round_id: r1.id, hole: h6.id, start_lat: 55.971940, start_lon: -3.406340, end_lat: 55.972802, end_lon: -3.405339, club: "5 Iron"})
+s17 = Shot.create({round_id: r1.id, hole_id: h4.id, start_lat: 55.974034, start_lon: -3.409258, end_lat: 55.973460, end_lon: -3.408903, club: "PW"})
 
-s29 = Shot.create({round_id: r1.id, hole: h6.id, start_lat: 55.972802, start_lon: -3.405339, end_lat: 55.973279, end_lon: -3.405070, club: "Wedge 52"})
+s18 = Shot.create({round_id: r1.id, hole_id: h4.id, club: "Putter"})
 
-s30 = Shot.create({round_id: r1.id, hole: h6.id, club: "Putter"})
+s19 = Shot.create({round_id: r1.id, hole_id: h4.id, club: "Putter"})
 
-s31 = Shot.create({round_id: r1.id, hole: h6.id, club: "Putter"})
-
-
-
-s32 = Shot.create({round_id: r1.id, hole: h7.id, start_lat: 55.973593, start_lon: -3.404792, end_lat: 55.973194, end_lon: -3.406867, club: "3 Iron"})
-
-s33 = Shot.create({round_id: r1.id, hole: h7.id, club: "Putter"})
-
-s34 = Shot.create({round_id: r1.id, hole: h7.id, club: "Putter"})
-
-s35 = Shot.create({round_id: r1.id, hole: h7.id, club: "Putter"})
+s20 = Shot.create({round_id: r1.id, hole_id: h4.id, club: "Putter"})
 
 
 
-s36 = Shot.create({round_id: r1.id, hole: h8.id, start_lat: 55.972565, start_lon: -3.407035, end_lat: 55.974135, end_lon: -3.405629, club: "Driver"})
+s21 = Shot.create({round_id: r1.id, hole_id: h5.id, start_lat: 55.974268, start_lon: -3.410408, end_lat: 55.972686, end_lon: -3.410066, club: "Driver"})
 
-s37 = Shot.create({round_id: r1.id, hole: h8.id, start_lat: 55.974135, start_lon: -3.405629, end_lat: 55.974920, end_lon: -3.405876, club: "6 Iron"})
+s22 = Shot.create({round_id: r1.id, hole_id: h5.id, start_lat: 55.972686, start_lon: -3.410066, end_lat: 55.971890, end_lon: -3.409079, club: "9 Iron"})
 
-s38 = Shot.create({round_id: r1.id, hole: h8.id, start_lat: 55.974920, start_lon: -3.405876, end_lat: 55.975625, end_lon: -3.406541, club: "PW"})
+s23 = Shot.create({round_id: r1.id, hole_id: h5.id, start_lat: 55.971890, start_lon: -3.409079, end_lat: 55.971348, end_lon: -3.408740, club: "Wedge 52"})
 
-s39 = Shot.create({round_id: r1.id, hole: h8.id, club: "Putter"})
+s24 = Shot.create({round_id: r1.id, hole_id: h5.id, club: "Putter"})
 
-s40 = Shot.create({round_id: r1.id, hole: h8.id, club: "Putter"})
+s25 = Shot.create({round_id: r1.id, hole_id: h5.id, club: "Putter"})
+
+s26 = Shot.create({round_id: r1.id, hole_id: h5.id, club: "Putter"})
 
 
 
-s41 = Shot.create({round_id: r1.id, hole: h9.id, start_lat: 55.975657, start_lon: -3.407545, end_lat: 55.975277, end_lon: -3.404723, club: "6 Iron"})
+s27 = Shot.create({round_id: r1.id, hole_id: h6.id, start_lat: 55.970474, start_lon: -3.409064, end_lat: 55.971940, end_lon: -3.406340, club: "Driver"})
 
-s42 = Shot.create({round_id: r1.id, hole: h9.id, club: "Putter"})
+s28 = Shot.create({round_id: r1.id, hole_id: h6.id, start_lat: 55.971940, start_lon: -3.406340, end_lat: 55.972802, end_lon: -3.405339, club: "5 Iron"})
+
+s29 = Shot.create({round_id: r1.id, hole_id: h6.id, start_lat: 55.972802, start_lon: -3.405339, end_lat: 55.973279, end_lon: -3.405070, club: "Wedge 52"})
+
+s30 = Shot.create({round_id: r1.id, hole_id: h6.id, club: "Putter"})
+
+s31 = Shot.create({round_id: r1.id, hole_id: h6.id, club: "Putter"})
+
+
+
+s32 = Shot.create({round_id: r1.id, hole_id: h7.id, start_lat: 55.973593, start_lon: -3.404792, end_lat: 55.973194, end_lon: -3.406867, club: "3 Iron"})
+
+s33 = Shot.create({round_id: r1.id, hole_id: h7.id, club: "Putter"})
+
+s34 = Shot.create({round_id: r1.id, hole_id: h7.id, club: "Putter"})
+
+s35 = Shot.create({round_id: r1.id, hole_id: h7.id, club: "Putter"})
+
+
+
+s36 = Shot.create({round_id: r1.id, hole_id: h8.id, start_lat: 55.972565, start_lon: -3.407035, end_lat: 55.974135, end_lon: -3.405629, club: "Driver"})
+
+s37 = Shot.create({round_id: r1.id, hole_id: h8.id, start_lat: 55.974135, start_lon: -3.405629, end_lat: 55.974920, end_lon: -3.405876, club: "6 Iron"})
+
+s38 = Shot.create({round_id: r1.id, hole_id: h8.id, start_lat: 55.974920, start_lon: -3.405876, end_lat: 55.975625, end_lon: -3.406541, club: "PW"})
+
+s39 = Shot.create({round_id: r1.id, hole_id: h8.id, club: "Putter"})
+
+s40 = Shot.create({round_id: r1.id, hole_id: h8.id, club: "Putter"})
+
+
+
+s41 = Shot.create({round_id: r1.id, hole_id: h9.id, start_lat: 55.975657, start_lon: -3.407545, end_lat: 55.975277, end_lon: -3.404723, club: "6 Iron"})
+
+s42 = Shot.create({round_id: r1.id, hole_id: h9.id, club: "Putter"})
 
 
 
@@ -161,99 +161,99 @@ s44 = Shot.create({round_id: r1.id, hole_id: h10.id, start_lat: 55.975962, start
 
 s45 = Shot.create({round_id: r1.id, hole_id: h10.id, club: "Putter"})
 
-s46 = Shot.create({round_id: r1.id, hole: h10.id, club: "Putter"})
+s46 = Shot.create({round_id: r1.id, hole_id: h10.id, club: "Putter"})
 
 
 
-s47 = Shot.create({round_id: r1.id, hole: h11.id, start_lat: 55.975789, start_lon: -3.408539, end_lat: 55.974132, end_lon: -3.407582, club: "Driver"})
+s47 = Shot.create({round_id: r1.id, hole_id: h11.id, start_lat: 55.975789, start_lon: -3.408539, end_lat: 55.974132, end_lon: -3.407582, club: "Driver"})
 
-s48 = Shot.create({round_id: r1.id, hole: h11.id, start_lat: 55.974132, start_lon: -3.407582, end_lat: 55.973146, end_lon: -3.407618, club: "3 Wood"})
+s48 = Shot.create({round_id: r1.id, hole_id: h11.id, start_lat: 55.974132, start_lon: -3.407582, end_lat: 55.973146, end_lon: -3.407618, club: "3 Wood"})
 
-s49 = Shot.create({round_id: r1.id, hole: h11.id, start_lat: 55.973146, start_lon: -3.407618, end_lat: 55.972028, end_lon: -3.407559, club: "8 Iron"})
+s49 = Shot.create({round_id: r1.id, hole_id: h11.id, start_lat: 55.973146, start_lon: -3.407618, end_lat: 55.972028, end_lon: -3.407559, club: "8 Iron"})
 
-s50 = Shot.create({round_id: r1.id, hole: h11.id, start_lat: 55.972028, start_lon: -3.407559, end_lat: 55.971776, end_lon: -3.407594, club: "Wedge 60"})
+s50 = Shot.create({round_id: r1.id, hole_id: h11.id, start_lat: 55.972028, start_lon: -3.407559, end_lat: 55.971776, end_lon: -3.407594, club: "Wedge 60"})
 
-s51 = Shot.create({round_id: r1.id, hole: h11.id, club: "Putter"})
+s51 = Shot.create({round_id: r1.id, hole_id: h11.id, club: "Putter"})
 
-s52 = Shot.create({round_id: r1.id, hole: h11.id, club: "Putter"})
-
-
-
-s53 = Shot.create({round_id: r1.id, hole: h12.id, start_lat: 55.971816, start_lon: -3.408098, end_lat: 55.973664, end_lon: -3.408289, club: "Driver"})
-
-s54 = Shot.create({round_id: r1.id, hole: h12.id, start_lat: 55.973664, start_lon: -3.408289, end_lat: 55.974941, end_lon: -3.409015, club: "6 Iron"})
-
-s55 = Shot.create({round_id: r1.id, hole: h12.id, start_lat: 55.974941, start_lon: -3.409015, end_lat: 55.975447, end_lon: -3.408760, club: "Wedge 60"})
-
-s56 = Shot.create({round_id: r1.id, hole: h12.id, club: "Putter"})
-
-s57 = Shot.create({round_id: r1.id, hole: h12.id, club: "Putter"})
+s52 = Shot.create({round_id: r1.id, hole_id: h11.id, club: "Putter"})
 
 
 
-s58 = Shot.create({round_id: r1.id, hole: h13.id, start_lat: 55.975850, start_lon: -3.409912, end_lat: 55.974034, end_lon: -3.409258, club: "Driver"})
+s53 = Shot.create({round_id: r1.id, hole_id: h12.id, start_lat: 55.971816, start_lon: -3.408098, end_lat: 55.973664, end_lon: -3.408289, club: "Driver"})
 
-s59 = Shot.create({round_id: r1.id, hole: h13.id, start_lat: 55.974034, start_lon: -3.409258, end_lat: 55.973460, end_lon: -3.408903, club: "PW"})
+s54 = Shot.create({round_id: r1.id, hole_id: h12.id, start_lat: 55.973664, start_lon: -3.408289, end_lat: 55.974941, end_lon: -3.409015, club: "6 Iron"})
 
-s60 = Shot.create({round_id: r1.id, hole: h13.id, club: "Putter"})
+s55 = Shot.create({round_id: r1.id, hole_id: h12.id, start_lat: 55.974941, start_lon: -3.409015, end_lat: 55.975447, end_lon: -3.408760, club: "Wedge 60"})
 
-s61 = Shot.create({round_id: r1.id, hole: h13.id, club: "Putter"})
+s56 = Shot.create({round_id: r1.id, hole_id: h12.id, club: "Putter"})
 
-s62 = Shot.create({round_id: r1.id, hole: h13.id, club: "Putter"})
-
-
-
-s63 = Shot.create({round_id: r1.id, hole: h14.id, start_lat: 55.974268, start_lon: -3.410408, end_lat: 55.972686, end_lon: -3.410066, club: "Driver"})
-
-s64 = Shot.create({round_id: r1.id, hole: h14.id, start_lat: 55.972686, start_lon: -3.410066, end_lat: 55.971890, end_lon: -3.409079, club: "9 Iron"})
-
-s65 = Shot.create({round_id: r1.id, hole: h14.id, start_lat: 55.971890, start_lon: -3.409079, end_lat: 55.971348, end_lon: -3.408740, club: "Wedge 52"})
-
-s66 = Shot.create({round_id: r1.id, hole: h14.id, club: "Putter"})
-
-s67 = Shot.create({round_id: r1.id, hole: h14.id, club: "Putter"})
-
-s68 = Shot.create({round_id: r1.id, hole: h14.id, club: "Putter"})
+s57 = Shot.create({round_id: r1.id, hole_id: h12.id, club: "Putter"})
 
 
 
-s69 = Shot.create({round_id: r1.id, hole: h15.id, start_lat: 55.970474, start_lon: -3.409064, end_lat: 55.971940, end_lon: -3.406340, club: "Driver"})
+s58 = Shot.create({round_id: r1.id, hole_id: h13.id, start_lat: 55.975850, start_lon: -3.409912, end_lat: 55.974034, end_lon: -3.409258, club: "Driver"})
 
-s70 = Shot.create({round_id: r1.id, hole: h15.id, start_lat: 55.971940, start_lon: -3.406340, end_lat: 55.972802, end_lon: -3.405339, club: "5 Iron"})
+s59 = Shot.create({round_id: r1.id, hole_id: h13.id, start_lat: 55.974034, start_lon: -3.409258, end_lat: 55.973460, end_lon: -3.408903, club: "PW"})
 
-s71 = Shot.create({round_id: r1.id, hole: h15.id, start_lat: 55.972802, start_lon: -3.405339, end_lat: 55.973279, end_lon: -3.405070, club: "Wedge 52"})
+s60 = Shot.create({round_id: r1.id, hole_id: h13.id, club: "Putter"})
 
-s72 = Shot.create({round_id: r1.id, hole: h15.id, club: "Putter"})
+s61 = Shot.create({round_id: r1.id, hole_id: h13.id, club: "Putter"})
 
-s73 = Shot.create({round_id: r1.id, hole: h15.id, club: "Putter"})
-
-
-
-s74 = Shot.create({round_id: r1.id, hole: h16.id, start_lat: 55.973593, start_lon: -3.404792, end_lat: 55.973194, end_lon: -3.406867, club: "3 Iron"})
-
-s75 = Shot.create({round_id: r1.id, hole: h16.id, club: "Putter"})
-
-s76 = Shot.create({round_id: r1.id, hole: h16.id, club: "Putter"})
-
-s77 = Shot.create({round_id: r1.id, hole: h16.id, club: "Putter"})
+s62 = Shot.create({round_id: r1.id, hole_id: h13.id, club: "Putter"})
 
 
 
-s78 = Shot.create({round_id: r1.id, hole: h17.id, start_lat: 55.972565, start_lon: -3.407035, end_lat: 55.974135, end_lon: -3.405629, club: "Driver"})
+s63 = Shot.create({round_id: r1.id, hole_id: h14.id, start_lat: 55.974268, start_lon: -3.410408, end_lat: 55.972686, end_lon: -3.410066, club: "Driver"})
 
-s79 = Shot.create({round_id: r1.id, hole: h17.id, start_lat: 55.974135, start_lon: -3.405629, end_lat: 55.974920, end_lon: -3.405876, club: "6 Iron"})
+s64 = Shot.create({round_id: r1.id, hole_id: h14.id, start_lat: 55.972686, start_lon: -3.410066, end_lat: 55.971890, end_lon: -3.409079, club: "9 Iron"})
 
-s80 = Shot.create({round_id: r1.id, hole: h17.id, start_lat: 55.974920, start_lon: -3.405876, end_lat: 55.975625, end_lon: -3.406541, club: "PW"})
+s65 = Shot.create({round_id: r1.id, hole_id: h14.id, start_lat: 55.971890, start_lon: -3.409079, end_lat: 55.971348, end_lon: -3.408740, club: "Wedge 52"})
 
-s81 = Shot.create({round_id: r1.id, hole: h17.id, club: "Putter"})
+s66 = Shot.create({round_id: r1.id, hole_id: h14.id, club: "Putter"})
 
-s82 = Shot.create({round_id: r1.id, hole: h17.id, club: "Putter"})
+s67 = Shot.create({round_id: r1.id, hole_id: h14.id, club: "Putter"})
+
+s68 = Shot.create({round_id: r1.id, hole_id: h14.id, club: "Putter"})
 
 
 
-s83 = Shot.create({round_id: r1.id, hole: h18.id, start_lat: 55.975657, start_lon: -3.407545, end_lat: 55.975277, end_lon: -3.404723, club: "6 Iron"})
+s69 = Shot.create({round_id: r1.id, hole_id: h15.id, start_lat: 55.970474, start_lon: -3.409064, end_lat: 55.971940, end_lon: -3.406340, club: "Driver"})
 
-s84 = Shot.create({round_id: r1.id, hole: h18.id, club: "Putter"})
+s70 = Shot.create({round_id: r1.id, hole_id: h15.id, start_lat: 55.971940, start_lon: -3.406340, end_lat: 55.972802, end_lon: -3.405339, club: "5 Iron"})
+
+s71 = Shot.create({round_id: r1.id, hole_id: h15.id, start_lat: 55.972802, start_lon: -3.405339, end_lat: 55.973279, end_lon: -3.405070, club: "Wedge 52"})
+
+s72 = Shot.create({round_id: r1.id, hole_id: h15.id, club: "Putter"})
+
+s73 = Shot.create({round_id: r1.id, hole_id: h15.id, club: "Putter"})
+
+
+
+s74 = Shot.create({round_id: r1.id, hole_id: h16.id, start_lat: 55.973593, start_lon: -3.404792, end_lat: 55.973194, end_lon: -3.406867, club: "3 Iron"})
+
+s75 = Shot.create({round_id: r1.id, hole_id: h16.id, club: "Putter"})
+
+s76 = Shot.create({round_id: r1.id, hole_id: h16.id, club: "Putter"})
+
+s77 = Shot.create({round_id: r1.id, hole_id: h16.id, club: "Putter"})
+
+
+
+s78 = Shot.create({round_id: r1.id, hole_id: h17.id, start_lat: 55.972565, start_lon: -3.407035, end_lat: 55.974135, end_lon: -3.405629, club: "Driver"})
+
+s79 = Shot.create({round_id: r1.id, hole_id: h17.id, start_lat: 55.974135, start_lon: -3.405629, end_lat: 55.974920, end_lon: -3.405876, club: "6 Iron"})
+
+s80 = Shot.create({round_id: r1.id, hole_id: h17.id, start_lat: 55.974920, start_lon: -3.405876, end_lat: 55.975625, end_lon: -3.406541, club: "PW"})
+
+s81 = Shot.create({round_id: r1.id, hole_id: h17.id, club: "Putter"})
+
+s82 = Shot.create({round_id: r1.id, hole_id: h17.id, club: "Putter"})
+
+
+
+s83 = Shot.create({round_id: r1.id, hole_id: h18.id, start_lat: 55.975657, start_lon: -3.407545, end_lat: 55.975277, end_lon: -3.404723, club: "6 Iron"})
+
+s84 = Shot.create({round_id: r1.id, hole_id: h18.id, club: "Putter"})
 
 
 
