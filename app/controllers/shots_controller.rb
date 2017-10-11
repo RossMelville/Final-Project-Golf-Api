@@ -1,7 +1,7 @@
 class ShotsController < ApplicationController
 
   def shot_params
-    params.require(:shot).permit([:start_lat, :start_lon, :end_lat, :end_lon, :round_id, :hole_id, :club])
+    params.require(:shot).permit([:start_lat, :start_lon, :end_lat, :end_lon, :round_id, :hole_id, :club, :distance])
   end
 
   def index  
