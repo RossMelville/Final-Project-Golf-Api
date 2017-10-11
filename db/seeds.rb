@@ -4,7 +4,9 @@ Round.delete_all()
 Shot.delete_all()
 Course.delete_all()
 
+c0 = Course.create({name: ""})
 c1 = Course.create({name: "Dundas Parks"})
+c2 = Course.create({name: "Ratho Park"})
 
 
 

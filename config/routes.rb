@@ -4,6 +4,7 @@ Rails.application.routes.draw do
     # resources :holes.as_json({include: :shots})
   resources :holes 
   resources :rounds
+  resources :courses
   end
 
 

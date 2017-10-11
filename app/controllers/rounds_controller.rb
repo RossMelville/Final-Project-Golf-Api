@@ -1,5 +1,8 @@
 class RoundsController < ApplicationController
 
+  def round_params
+    params.require(:round).permit([:course_id, :course, :date])
+  end
 
   def index  
     @rounds = Round.all
@@ -12,7 +15,7 @@ class RoundsController < ApplicationController
   end
 
   def create
-    round = Round.create()
+    round = Round.create( round_params )
     render :json => round
   end
 

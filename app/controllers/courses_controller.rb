@@ -5,7 +5,7 @@ class CoursesController < ApplicationController
     render :json => @courses
   end
 
-  def shot
+  def show
     course = Course.find(params[:id])
     render :json => course
   end

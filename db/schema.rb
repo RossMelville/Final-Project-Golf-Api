@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20171009105406) do
+ActiveRecord::Schema.define(version: 20171011105441) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -63,6 +63,7 @@ ActiveRecord::Schema.define(version: 20171009105406) do
     t.integer  "round_id"
     t.integer  "hole_id"
     t.string   "club"
+    t.integer  "distance"
   end
 
   add_foreign_key "courses", "holes"
